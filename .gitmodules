@@ -13,3 +13,6 @@
 [submodule "Auto-Pairs"]
 	path = Auto-Pairs
 	url = https://github.com/vim-scripts/Auto-Pairs.git
+[submodule ".vim/bundle/auto-pairs"]
+	path = .vim/bundle/auto-pairs
+	url = https://github.com/vim-scripts/Auto-Pairs.git

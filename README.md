@@ -1,6 +1,7 @@
 MyVim
 =====
-    MyVim is an IDE extends vim with the most good-use plugins for vim. I will continuely trace these cool plugins and add them here.
+    MyVim is an IDE extends vim with the most good-use plugins for vim. I will continuely 
+    trace these cool plugins and add them here.
 
 Installing
 ----------

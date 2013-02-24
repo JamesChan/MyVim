@@ -1,13 +1,16 @@
 syn on                      "语法支持
+filetype plugin on          "Some file type plugin disabled. i.e. Do not extend TAB key in Makefile" 
 
 "common conf {{             通用配置
 set ai                      "自动缩进
 set bs=2                    "在insert模式下用退格键删除
 set showmatch               "代码匹配
 set laststatus=2            "总是显示状态行
+
 set expandtab               "以下三个配置配合使用，设置tab和缩进空格数
 set shiftwidth=4
 set tabstop=4
+
 set cursorline              "为光标所在行加下划线
 set number                  "显示行号
 set autoread                "文件在Vim之外修改过，自动重新读入
@@ -38,6 +41,8 @@ let g:Powerline_symbols = 'fancy'
 call pathogen#infect()
 "}
 "}}
+
+"TODO"nnoremap <C-tree> : NERDTree<CR>
 
 "taglist{
 let Tlist_Show_One_File = 1            "只显示当前文件的taglist，默认是显示多个
